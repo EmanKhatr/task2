@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(185, 199, 199, 0.267);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  
+}
+.container .par{
+    display: flex;
+    flex-direction: column;
+   margin-left: 350px;
+   margin-bottom: 175px;
+}
+.par h2{
+    color: rgba(5, 76, 230, 0.918);
+    font-size: 78px;
+    margin-bottom: 8px;
+    font-weight: 750;
+}
+.par p{
+    color: rgba(17, 17, 17, 0.925);
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right{
+
+       margin-right: 350px;
+
+}
+.up{
+    width: 490px;
+    height: 420px;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+    box-shadow: -1px 1px 10px rgba(201, 200, 200, 0.836);
+}
+form .text{
+    margin: auto;
+    width: 93%;
+    height: 60px;
+    border: none;
+    border: solid 1px #e2dede ;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+form .pass{
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgba(0, 102, 218, 0.89);
+    font-size:16px ;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    width: 90%;
+    border-bottom:solid 1.7px rgba(194, 194, 194, 0.432) ;
+}
+form .login{
+    margin: auto;
+    width: 93%;
+    height: 60px;
+    margin-top: 5px;
+    border: none;
+    background-color: rgba(0, 102, 218, 0.89);
+    color: #ffffff;
+    outline: none;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+form .creat{
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    border: none;
+    background-color: rgba(5, 163, 5, 0.822);
+    color: #ffffff;
+    outline: none;
+    border-radius: 8px;
+    font-size: 21px;
+    font-weight: 550;
+    letter-spacing: .2px;
+    margin-top: 60px;
+
+}
+.page{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: 540;
+}
